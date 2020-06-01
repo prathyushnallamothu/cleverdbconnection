@@ -9,7 +9,7 @@ import (
 )
 
 func Connect() *sql.DB {
-	db, err := sql.Open("mysql", "root:pass@tcp(localhost:3306)/login")
+	db, err := sql.Open("mysql", "uv0wzcemsgoyydpa:uv0wzcemsgoyydpa@tcp(bwuogspv0wb9a6xoxprw-mysql.services.clever-cloud.com:3306)/bwuogspv0wb9a6xoxprw")
 	if err != nil {
 		log.Fatal(err)
 	}
